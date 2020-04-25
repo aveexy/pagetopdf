@@ -1,0 +1,26 @@
+{
+  "name": "pagetopdf",
+  "version": "1.0.1",
+  "author": {
+    "name": "Patrick Pichler",
+    "email": "aveexyliium@gmail.com"
+  },
+  "license": "MIT",
+  "main": "bin/pagetopdf.js",
+  "bin": {
+    "pagetopdf": "./bin/pagetopdf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aveexy/pagetopdf.git"
+  },
+  "bugs": {
+    "url": "https://github.com/puppeteer/puppeteer/issues"
+  },
+  "homepage": "https://github.com/aveexy/pagetopdf",
+  "dependencies": {
+    "commander": "^5.1.0",
+    "is-url": "^1.2.4",
+    "puppeteer": "^3.0.1"
+  }
+}
